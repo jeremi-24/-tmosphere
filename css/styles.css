@@ -11003,7 +11003,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/hero.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11068,7 +11068,7 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 .back{
-  background: linear-gradient(to bottom, rgba(144, 58, 34, 0.8) 0%, rgba(144, 58, 34, 0.8) 100%), url(/area2.png);
+  background: linear-gradient(to bottom, rgba(144, 58, 34, 0.8) 0%, rgba(144, 58, 34, 0.8) 100%), url(/area2.webp);
 
 
   background-position: center;
@@ -11122,19 +11122,10 @@ header.masthead h1, header.masthead .h1 {
 }
 
 /* Sélectionner le logo et définir une largeur plus grande */
-.navbar .logo {
-  width: auto; 
-  margin-top: 2px; /* Supprimer la largeur fixe pour qu'il puisse s'agrandir selon la hauteur */
-  height: 200px; /* Fixer la hauteur du logo pour qu'il s'agrandisse sans déformation */
-  object-fit: contain; /* Garantir que le logo conserve ses proportions */
-}
+
 
 /* Fixer la hauteur de la navbar pour qu'elle ne s'agrandisse pas */
-.navbar {
-  height: 100px;  /* Vous pouvez ajuster cette valeur en fonction de la hauteur souhaitée */
-  display: flex;
-  align-items: center; /* Centrer verticalement le contenu */
-}
+
 @media (max-width: 991px) {
   .navbar .logo {
       height: 60px; /* Réduire la hauteur du logo pour les écrans de taille moyenne */
